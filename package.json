@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/VictorOduorKe/e-commerce#readme",
+  "bugs": {
+    "url": "https://github.com/VictorOduorKe/e-commerce/issues"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorOduorKe/e-commerce.git"
+  },
+  "license": "ISC",
+  "author": "Victor Oduor",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "none",
+   "build": "sass ./sass/style.scss --watch ./css/style.css"
+  }
+}

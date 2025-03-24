@@ -1,0 +1,52 @@
+/* top sale scss*/
+#top-sale{
+    .owl-carousel .item  a{
+        overflow: hidden;
+    }
+    .owl-carousel .item img{
+        transition: transform 0.5s ease;
+    }
+    .owl-carousel .item  img:hover{
+        transform: scale(1.1);
+    }
+    .owl-carousel .owl-nav button{
+        position: absolute;
+        top:30%;
+        outline: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        position:absolute;
+        font-size: 35px;
+        color:$color-primary;
+       top:30%;
+       left:0;
+   }
+ 
+    .owl-carousel .owl-nav button.owl-prev span{
+        position: absolute;
+         font-size: 35px;
+        color:$color-primary;
+        margin-left: -4rem;
+        padding: 0 1rem;
+        left: 0;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        position:absolute;
+        font-size: 35px;
+        color:$color-primary;
+       top:30%;
+       right:0;
+   }
+
+   
+   .owl-carousel .owl-nav button.owl-next span{
+    position: absolute;
+     font-size: 35px;
+    color:$color-primary;
+    margin-right: -4rem;
+    padding: 0 1rem;
+    right: 0;
+}
+
+}
+

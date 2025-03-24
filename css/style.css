@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/*  sass template */
+/* global classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+  font-family: "Baloo", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #ffD289;
+}
+
+.color-yellow-bg {
+  background: #ffD289;
+}
+
+/* top sale scss*/
+#top-sale .owl-carousel .item a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  font-size: 35px;
+  color: #003859;
+  top: 30%;
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  position: absolute;
+  font-size: 35px;
+  color: #003859;
+  margin-left: -4rem;
+  padding: 0 1rem;
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  font-size: 35px;
+  color: #003859;
+  top: 30%;
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  position: absolute;
+  font-size: 35px;
+  color: #003859;
+  margin-right: -4rem;
+  padding: 0 1rem;
+  right: 0;
+}
+
+/* special price*/
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
